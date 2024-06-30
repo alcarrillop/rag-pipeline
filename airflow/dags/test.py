@@ -37,7 +37,7 @@ with DAG(
         postgres_conn_id='datalake_postgres',
         sql="""
         INSERT INTO datalake_table (data) VALUES
-        ('I love using Airflow!'),;
+        ('I love using Airflow');
         """
     )
 
