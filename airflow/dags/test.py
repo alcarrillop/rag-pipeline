@@ -1,19 +1,24 @@
 from airflow import DAG
 from airflow.providers.postgres.operators.postgres import PostgresOperator
 from airflow.utils.dates import days_ago
+from datetime import datetime
 
 default_args = {
     'owner': 'airflow',
     'retries': 1,
 }
 
+start_date = datetime(2024, 6, 30, 15, 0, 0)
+
 with DAG(
     'example_datalake_dag',
     default_args=default_args,
     description='A simple DAG interacting with the Data Lake',
-    schedule_interval='0 * * * *',
-    start_date=days_ago(1),
+    schedule_interval='@hourly',
+    start_date=start_date,
     tags=['example'],
+    catchup=False
+
 ) as dag:
 
     create_datalake_table = PostgresOperator(
@@ -32,7 +37,7 @@ with DAG(
         postgres_conn_id='datalake_postgres',
         sql="""
         INSERT INTO datalake_table (data) VALUES
-        ('example_data');
+        ('I love using Airflow!'),;
         """
     )
 
