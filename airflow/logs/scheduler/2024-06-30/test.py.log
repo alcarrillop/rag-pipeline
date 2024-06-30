@@ -1592,3 +1592,51 @@ airflow.exceptions.AirflowTimetableInvalid: Exactly 5 or 6 columns has to be spe
 [2024-06-30 19:03:24,209] {logging_mixin.py:115} INFO - [2024-06-30 19:03:24,209] {dag.py:2972} INFO - Setting next_dagrun for example_datalake_dag to 2024-06-30T19:00:00+00:00, run_after=2024-06-30T20:00:00+00:00
 [2024-06-30 19:03:24,216] {processor.py:161} INFO - Processing /opt/airflow/dags/test.py took 0.103 seconds
 [2024-06-30 19:03:34,375] {processor.py:153} INFO - Started process (PID=1433) to work on /opt/airflow/dags/test.py
+[2024-06-30 19:03:34,377] {processor.py:641} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2024-06-30 19:03:34,378] {logging_mixin.py:115} INFO - [2024-06-30 19:03:34,378] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2024-06-30 19:03:34,399] {processor.py:651} INFO - DAG(s) dict_keys(['example_datalake_dag']) retrieved from /opt/airflow/dags/test.py
+[2024-06-30 19:03:34,445] {logging_mixin.py:115} INFO - [2024-06-30 19:03:34,445] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-06-30 19:03:34,464] {logging_mixin.py:115} INFO - [2024-06-30 19:03:34,464] {dag.py:2972} INFO - Setting next_dagrun for example_datalake_dag to 2024-06-30T19:00:00+00:00, run_after=2024-06-30T20:00:00+00:00
+[2024-06-30 19:03:34,471] {processor.py:161} INFO - Processing /opt/airflow/dags/test.py took 0.119 seconds
+[2024-06-30 19:03:44,565] {processor.py:153} INFO - Started process (PID=1438) to work on /opt/airflow/dags/test.py
+[2024-06-30 19:03:44,567] {processor.py:641} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2024-06-30 19:03:44,567] {logging_mixin.py:115} INFO - [2024-06-30 19:03:44,567] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2024-06-30 19:03:44,587] {processor.py:651} INFO - DAG(s) dict_keys(['example_datalake_dag']) retrieved from /opt/airflow/dags/test.py
+[2024-06-30 19:03:44,627] {logging_mixin.py:115} INFO - [2024-06-30 19:03:44,626] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-06-30 19:03:44,647] {logging_mixin.py:115} INFO - [2024-06-30 19:03:44,647] {dag.py:2972} INFO - Setting next_dagrun for example_datalake_dag to 2024-06-30T19:00:00+00:00, run_after=2024-06-30T20:00:00+00:00
+[2024-06-30 19:03:44,665] {processor.py:161} INFO - Processing /opt/airflow/dags/test.py took 0.105 seconds
+[2024-06-30 19:03:54,779] {processor.py:153} INFO - Started process (PID=1443) to work on /opt/airflow/dags/test.py
+[2024-06-30 19:03:54,780] {processor.py:641} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2024-06-30 19:03:54,781] {logging_mixin.py:115} INFO - [2024-06-30 19:03:54,781] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2024-06-30 19:03:54,833] {processor.py:651} INFO - DAG(s) dict_keys(['example_datalake_dag']) retrieved from /opt/airflow/dags/test.py
+[2024-06-30 19:03:54,869] {logging_mixin.py:115} INFO - [2024-06-30 19:03:54,869] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-06-30 19:03:54,897] {logging_mixin.py:115} INFO - [2024-06-30 19:03:54,897] {dag.py:2972} INFO - Setting next_dagrun for example_datalake_dag to 2024-06-30T19:00:00+00:00, run_after=2024-06-30T20:00:00+00:00
+[2024-06-30 19:03:54,905] {processor.py:161} INFO - Processing /opt/airflow/dags/test.py took 0.135 seconds
+[2024-06-30 19:04:05,041] {processor.py:153} INFO - Started process (PID=1448) to work on /opt/airflow/dags/test.py
+[2024-06-30 19:04:05,042] {processor.py:641} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2024-06-30 19:04:05,043] {logging_mixin.py:115} INFO - [2024-06-30 19:04:05,043] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2024-06-30 19:04:05,083] {processor.py:651} INFO - DAG(s) dict_keys(['example_datalake_dag']) retrieved from /opt/airflow/dags/test.py
+[2024-06-30 19:04:05,114] {logging_mixin.py:115} INFO - [2024-06-30 19:04:05,114] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-06-30 19:04:05,132] {logging_mixin.py:115} INFO - [2024-06-30 19:04:05,132] {dag.py:2972} INFO - Setting next_dagrun for example_datalake_dag to 2024-06-30T19:00:00+00:00, run_after=2024-06-30T20:00:00+00:00
+[2024-06-30 19:04:05,139] {processor.py:161} INFO - Processing /opt/airflow/dags/test.py took 0.106 seconds
+[2024-06-30 19:04:15,203] {processor.py:153} INFO - Started process (PID=1453) to work on /opt/airflow/dags/test.py
+[2024-06-30 19:04:15,203] {processor.py:641} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2024-06-30 19:04:15,204] {logging_mixin.py:115} INFO - [2024-06-30 19:04:15,204] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2024-06-30 19:04:15,239] {processor.py:651} INFO - DAG(s) dict_keys(['example_datalake_dag']) retrieved from /opt/airflow/dags/test.py
+[2024-06-30 19:04:15,272] {logging_mixin.py:115} INFO - [2024-06-30 19:04:15,271] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-06-30 19:04:15,301] {logging_mixin.py:115} INFO - [2024-06-30 19:04:15,301] {dag.py:2972} INFO - Setting next_dagrun for example_datalake_dag to 2024-06-30T19:00:00+00:00, run_after=2024-06-30T20:00:00+00:00
+[2024-06-30 19:04:15,308] {processor.py:161} INFO - Processing /opt/airflow/dags/test.py took 0.111 seconds
+[2024-06-30 19:04:25,461] {processor.py:153} INFO - Started process (PID=1458) to work on /opt/airflow/dags/test.py
+[2024-06-30 19:04:25,462] {processor.py:641} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2024-06-30 19:04:25,463] {logging_mixin.py:115} INFO - [2024-06-30 19:04:25,463] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2024-06-30 19:04:25,483] {processor.py:651} INFO - DAG(s) dict_keys(['example_datalake_dag']) retrieved from /opt/airflow/dags/test.py
+[2024-06-30 19:04:25,528] {logging_mixin.py:115} INFO - [2024-06-30 19:04:25,528] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-06-30 19:04:25,546] {logging_mixin.py:115} INFO - [2024-06-30 19:04:25,546] {dag.py:2972} INFO - Setting next_dagrun for example_datalake_dag to 2024-06-30T19:00:00+00:00, run_after=2024-06-30T20:00:00+00:00
+[2024-06-30 19:04:25,553] {processor.py:161} INFO - Processing /opt/airflow/dags/test.py took 0.102 seconds
+[2024-06-30 19:04:35,695] {processor.py:153} INFO - Started process (PID=1463) to work on /opt/airflow/dags/test.py
+[2024-06-30 19:04:35,696] {processor.py:641} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2024-06-30 19:04:35,698] {logging_mixin.py:115} INFO - [2024-06-30 19:04:35,698] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2024-06-30 19:04:35,736] {processor.py:651} INFO - DAG(s) dict_keys(['example_datalake_dag']) retrieved from /opt/airflow/dags/test.py
+[2024-06-30 19:04:35,772] {logging_mixin.py:115} INFO - [2024-06-30 19:04:35,772] {dag.py:2420} INFO - Sync 1 DAGs
+[2024-06-30 19:04:35,792] {logging_mixin.py:115} INFO - [2024-06-30 19:04:35,792] {dag.py:2972} INFO - Setting next_dagrun for example_datalake_dag to 2024-06-30T19:00:00+00:00, run_after=2024-06-30T20:00:00+00:00
+[2024-06-30 19:04:35,808] {processor.py:161} INFO - Processing /opt/airflow/dags/test.py took 0.123 seconds
